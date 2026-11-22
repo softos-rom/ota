@@ -1,0 +1,18 @@
+# Sırlar
+.env*
+*.key
+*.pem
+config.php
+config.*.php
+*.local.json
+
+# Yedek, dökümler ve büyük dosyalar
+*.sql
+*.zip
+*.tar.gz
+
+# Bağımlılık ve geçici
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,18 +1,42 @@
 [
   {
-    "datetime": 1795435417,
+    "datetime": 1795456909,
     "type": "UNOFFICIAL",
-    "version": "24.0.2",
+    "version": "24.0.3",
     "files": [
       {
-        "filename": "SoftOS-24.0.2-20261123-1752-popsicle-ota.zip",
+        "filename": "SoftOS-24.0.3-20261123-2344-popsicle-ota.zip",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:5482:320774,payload.bin:5482:4944965082,payload_properties.txt:4944970622:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
-        "sha256": "fa96423390843e1022d70d9e380cac542fd141e6e0821cc9c50624b2451651e3",
-        "size": 4944973798,
-        "url": "https://downloads.sourceforge.net/project/softos/24.0.2/SoftOS-24.0.2-20261123-1752-popsicle-ota.zip"
+        "ota_property_files": "payload_metadata.bin:5482:320774,payload.bin:5482:4944692088,payload_properties.txt:4944697628:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
+        "sha256": "2c506430c4072f2b33adb0b0a7312d610f45d857842f3d5312b57236985ebcf1",
+        "size": 4944700804,
+        "url": "https://downloads.sourceforge.net/project/softos/24.0.3/SoftOS-24.0.3-20261123-2344-popsicle-ota.zip"
       }
-    ]
+    ],
+    "softos": {
+      "new": {
+        "tr": [
+          "Güncellemeyi indirmeden önce boyutunu, yeniliklerini ve telefondaki boş alanı görebilirsiniz.",
+          "Neler yeni artık Yenilikler ve Düzeltilenler bölümleri olan bir pencere; Güncelleyici'deki Neler yeni düğmesi kurulu sürümün notlarını her zaman gösterir.",
+          "SoftOS'u destekle sayfası Ayarlar'la aynı görünüme kavuştu."
+        ],
+        "en": [
+          "Before downloading an update you now see its size, what's new and the free space on your phone.",
+          "\"What's new\" is now a pop-up with New and Fixed sections; the What's new button in the updater always shows the notes of the installed version.",
+          "The Support SoftOS page has a new look matching Settings."
+        ]
+      },
+      "fixed": {
+        "tr": [
+          "Güncelleyici her aşamayı adıyla gösteriyor: İndiriliyor ve kuruluyor (yüzde ve boyutla), Kurulum tamamlanıyor, Yeniden başlatmaya hazır.",
+          "Destek sayfasında çift başlık, eski görünümlü düğmeler ve aynı telefonda okutulamayan QR kodu kaldırıldı."
+        ],
+        "en": [
+          "The updater now names each step: Downloading and installing (with percentage and size), Finishing installation, Ready to restart.",
+          "Support page: duplicate title, old-style buttons and the QR code (not scannable on the same phone) are gone."
+        ]
+      }
+    }
   }
 ]

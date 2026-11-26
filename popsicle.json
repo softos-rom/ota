@@ -1,39 +1,35 @@
 [
   {
-    "datetime": 1795660990,
+    "datetime": 1795684478,
     "type": "UNOFFICIAL",
-    "version": "24.0.4",
+    "version": "24.0.5",
     "files": [
       {
-        "filename": "SoftOS-24.0.4-20261126-0745-popsicle-ota.zip",
+        "filename": "SoftOS-24.0.5-20261126-1258-popsicle-ota.zip",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:5482:320774,payload.bin:5482:4944685073,payload_properties.txt:4944690613:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
-        "sha256": "3b2cfe5c90cde483a90e5cc8883cdb70868c3b4770fc43ce40bf23c999528df2",
-        "size": 4944693789,
-        "url": "https://downloads.sourceforge.net/project/softos/24.0.4/SoftOS-24.0.4-20261126-0745-popsicle-ota.zip"
+        "ota_property_files": "payload_metadata.bin:5482:321057,payload.bin:5482:4947890619,payload_properties.txt:4947896159:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
+        "sha256": "de7e5f562af98e247d6f7b73322870243beaa117d5aff80f95db5f9a6ca7d709",
+        "size": 4947899335,
+        "url": "https://downloads.sourceforge.net/project/softos/24.0.5/SoftOS-24.0.5-20261126-1258-popsicle-ota.zip"
       }
     ],
     "softos": {
       "new": {
         "tr": [
-          "Ekran kapalıyken iki kez dokunarak telefonu uyandırabilirsiniz.",
-          "Telefonu kaldırınca ekran karanlık kalır, yalnız parmak izi simgesi görünür; parmağınızı koyunca kilit açılır (Ayarlar › Hareketler)."
+          "Ayarlar › Tema: hazır renkler, koyu tema, simge şekli, uygulama ızgarası ve tema simgeleri tek sayfada.",
+          "Ayarlar › Hareketler › Ekran kapalıyken: çift dokunma, kaldırma, bildirim ve güç tuşu davranışları tek yerde.",
+          "Çift dokunma ve kaldırma artık ekranı tam açmak yerine saat ve bildirimlerle kısık ekran da gösterebilir."
         ],
         "en": [
-          "Double-tap the screen while it is off to wake the phone.",
-          "Lifting the phone keeps the screen dark and shows only the fingerprint icon; place your finger on it to unlock (Settings › Gestures)."
+          "Settings › Theme: preset colors, dark theme, icon shape, app grid and themed icons on one page.",
+          "Settings › Gestures › When the screen is off: double tap, lift, notifications and power button behavior in one place.",
+          "Double tap and lift can now show a dim screen with the clock and notifications instead of waking fully."
         ]
       },
       "fixed": {
-        "tr": [
-          "Güç + Ses açma ve güç tuşunu yaklaşık 3 saniye basılı tutmak artık güç menüsünü açıyor.",
-          "Uygulama çekmecesi de seçilen simge şeklini kullanıyor."
-        ],
-        "en": [
-          "Power + Volume up and holding the power button for about 3 seconds now open the power menu.",
-          "The app drawer now uses the selected icon shape, like the home screen."
-        ]
+        "tr": [],
+        "en": []
       }
     }
   }

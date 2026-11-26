@@ -1,30 +1,28 @@
 [
   {
-    "datetime": 1795482510,
+    "datetime": 1795660990,
     "type": "UNOFFICIAL",
     "version": "24.0.4",
     "files": [
       {
-        "filename": "SoftOS-24.0.4-20261124-0450-popsicle-ota.zip",
+        "filename": "SoftOS-24.0.4-20261126-0745-popsicle-ota.zip",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:5482:320774,payload.bin:5482:4944682576,payload_properties.txt:4944688116:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
-        "sha256": "2b1c896a4e062263f117fb332f48c702d7ad909e5a4e555840f6a8a7571d53fb",
-        "size": 4944691292,
-        "url": "https://downloads.sourceforge.net/project/softos/24.0.4/SoftOS-24.0.4-20261124-0450-popsicle-ota.zip"
+        "ota_property_files": "payload_metadata.bin:5482:320774,payload.bin:5482:4944685073,payload_properties.txt:4944690613:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
+        "sha256": "3b2cfe5c90cde483a90e5cc8883cdb70868c3b4770fc43ce40bf23c999528df2",
+        "size": 4944693789,
+        "url": "https://downloads.sourceforge.net/project/softos/24.0.4/SoftOS-24.0.4-20261126-0745-popsicle-ota.zip"
       }
     ],
     "softos": {
       "new": {
         "tr": [
           "Ekran kapalıyken iki kez dokunarak telefonu uyandırabilirsiniz.",
-          "Ekran kapalıyken parmak izinizle kilidi açabilirsiniz.",
-          "Telefonu kaldırınca ekran karanlık kalır, yalnız parmak izi simgesi görünür; dokununca kilit açılır."
+          "Telefonu kaldırınca ekran karanlık kalır, yalnız parmak izi simgesi görünür; parmağınızı koyunca kilit açılır (Ayarlar › Hareketler)."
         ],
         "en": [
           "Double-tap the screen while it is off to wake the phone.",
-          "Unlock with your fingerprint while the screen is off.",
-          "Lifting the phone keeps the screen dark and shows only the fingerprint icon; touch it to unlock."
+          "Lifting the phone keeps the screen dark and shows only the fingerprint icon; place your finger on it to unlock (Settings › Gestures)."
         ]
       },
       "fixed": {

@@ -1,17 +1,17 @@
 [
   {
-    "datetime": 1795703999,
+    "datetime": 1795746639,
     "type": "UNOFFICIAL",
     "version": "24.0.5",
     "files": [
       {
-        "filename": "SoftOS-24.0.5-20261126-2024-popsicle-ota.zip",
+        "filename": "SoftOS-24.0.5-20261127-0711-popsicle-ota.zip",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:5482:321057,payload.bin:5482:4947891701,payload_properties.txt:4947897241:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
-        "sha256": "29418c0d475381234a7e5cdea564fe6dd11b751e45f9e7455d4301eebcaf2fe2",
-        "size": 4947900417,
-        "url": "https://downloads.sourceforge.net/project/softos/24.0.5/SoftOS-24.0.5-20261126-2024-popsicle-ota.zip"
+        "ota_property_files": "payload_metadata.bin:5482:321113,payload.bin:5482:4949516977,payload_properties.txt:4949522517:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
+        "sha256": "caa99023521d411892fffa5076e9efa2dbf1b8ede51a71f61b6dcc821bfdc2ec",
+        "size": 4949525693,
+        "url": "https://downloads.sourceforge.net/project/softos/24.0.5/SoftOS-24.0.5-20261127-0711-popsicle-ota.zip"
       }
     ],
     "softos": {

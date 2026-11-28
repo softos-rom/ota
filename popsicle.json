@@ -1,5 +1,57 @@
 [
   {
+    "datetime": 1795825378,
+    "type": "UNOFFICIAL",
+    "version": "24.0.4",
+    "files": [
+      {
+        "filename": "SoftOS-24.0.4-20261128-0403-popsicle-ota.zip",
+        "os_patch_level": "2026-11-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:5482:321173,payload.bin:5482:4952702660,payload_properties.txt:4952708200:156,apex_info.pb:2376:1547,care_map.pb:3970:1445,metadata:69:700,metadata.pb:837:1491",
+        "sha256": "3cbac784ccb0cda912fa0abb73c3d13542f5784e648250d48236f488d7baac90",
+        "size": 4952711376,
+        "url": "https://downloads.sourceforge.net/project/softos/24.0.4/SoftOS-24.0.4-20261128-0403-popsicle-ota.zip"
+      }
+    ],
+    "softos": {
+      "new": {
+        "tr": [
+          "Ekran kapalıyken iki kez dokunarak telefonu uyandırabilirsiniz; isterseniz ekran tam açılmak yerine saat ve bildirimlerle kısık açılır.",
+          "Telefonu kaldırınca ekran karanlık kalır, yalnız parmak izi simgesi görünür; parmağınızı koyunca kilit açılır.",
+          "Yüz tanıma ile kilit açma (Ayarlar › Güvenlik). Banka ve ödeme onaylarında parmak izi kullanılır.",
+          "Ayarlar › Hareketler › Ekran kapalıyken: çift dokunma, kaldırma, kamera kısayolu ve tuş ayarları tek yerde.",
+          "Ayarlar › Tema: hazır renkler, koyu tema, simge şekli, uygulama ızgarası ve tema simgeleri (ilk sürüm)."
+        ],
+        "en": [
+          "Double-tap the screen while it is off to wake the phone; optionally it shows a dim screen with the clock and notifications instead.",
+          "Lifting the phone keeps the screen dark and shows only the fingerprint icon; place your finger on it to unlock.",
+          "Face unlock (Settings › Security). Banking and payment confirmations use the fingerprint.",
+          "Settings › Gestures › When the screen is off: double tap, lift, camera shortcut and button settings in one place.",
+          "Settings › Theme: preset colors, dark theme, icon shape, app grid and themed icons (first version)."
+        ]
+      },
+      "fixed": {
+        "tr": [
+          "Güç + Ses açma ve güç tuşunu yaklaşık 3 saniye basılı tutmak güç menüsünü açıyor.",
+          "Uygulama çekmecesi de seçilen simge şeklini kullanıyor.",
+          "Otomatik parlaklık sabit ışıkta artık kendiliğinden inip çıkmıyor.",
+          "Telefoto kameranın eksik görüntü sabitleme (OIS) yazılımı eklendi.",
+          "Ses servisinin ve video işlemcisinin çökmeleri giderildi.",
+          "Yerel güncellemede de kurulum bitince Yeniden başlat düğmesi görünüyor."
+        ],
+        "en": [
+          "Power + Volume up and holding the power button for about 3 seconds open the power menu.",
+          "The app drawer now uses the selected icon shape, like the home screen.",
+          "Auto-brightness no longer goes up and down by itself in steady light.",
+          "Added the missing optical image stabilization (OIS) firmware for the telephoto camera.",
+          "Fixed crashes of the audio service and the video processor.",
+          "The Restart button now also appears after installing a local update."
+        ]
+      }
+    }
+  },
+  {
     "datetime": 1795456909,
     "type": "UNOFFICIAL",
     "version": "24.0.3",
